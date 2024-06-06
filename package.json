@@ -1,0 +1,20 @@
+{
+  "name": "rodziem-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env src/js/app.js"
+  },
+  "author": "justaspriest",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "axios": "^1.7.2",
+    "mongodb": "^6.7.0",
+    "request": "^2.88.2",
+    "uuid": "^9.0.1"
+  }
+}
